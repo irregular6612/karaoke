@@ -1,0 +1,129 @@
+.Main {
+	background-color: white;
+}
+.wrapper {
+	position: absolute;
+}
+#backGroundImageBox {
+	position: absolute;
+	top: 10;
+	right: 30;
+}
+#backGroundImg {
+	border: 0;
+	padding: 0;
+	min-height: 100%;
+	min-width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+#inkiChart {
+	background-color: #d8d8d8;
+	position: absolute;
+	left: 127px;
+	top: 176px;
+	width: 553px;
+	height: 160px;
+	z-index: 10;
+	opacity: 0.5;
+	text-align: center;
+}
+#jaeMokChatKi {
+	background-color: #d8d8d8;
+	position: absolute;
+	left: 127px;
+	top: 336px;
+	width: 553px;
+	height: 162px;
+	z-index: 10;
+	opacity: 0.5;
+	text-align: center;
+}
+#kaSuChatKi {
+	background-color: #d8d8d8;
+	position: absolute;
+	left: 127px;
+	top: 498px;
+	width: 553px;
+	height: 162px;
+	z-index: 10;
+	opacity: 0.5;
+	text-align: center;
+}
+.menuTitle {
+	font-size: 100px;
+	opacity: 1;
+}
+.finder {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 10;
+	width: 1250px;
+	height: 900px;
+
+	left: 700px;
+	top: 200px;
+
+	overflow: scroll;
+}
+#inkiChartList {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+
+	z-index: 10;
+	width: 1250px;
+	height: 900px;
+
+	left: 700px;
+	top: 200px;
+
+	overflow: scroll;
+}
+.typeBox {
+	background: rgba(0, 0, 0, 0.2);
+	width: 1240px;
+	height: 100px;
+
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+
+	font-size: 50px;
+}
+
+.typeBox::placeholder {
+	color: white;
+}
+
+input,
+textarea {
+	color: white;
+}
+
+#chartTitleBox {
+	color: black;
+}
+#chartTitle {
+	color: white;
+	font-size: 100px;
+	margin: 10px 10px 10px 10px;
+	font-weight: 500;
+}
+.chartItem {
+	display: flex;
+	flex-direction: row;
+	border-style: groove;
+	height: 200px;
+}
+.chartImg {
+	height: 200px;
+	opacity: 1;
+}
+.imgBox {
+	flex: 1;
+}
+.introduction {
+	margin-left: 20px;
+	flex: 5;
+	flex-direction: column;
+	display: flex;
+}
